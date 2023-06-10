@@ -9,11 +9,11 @@ const Carro=new Schema ({
         required:true
     }, //otro objeto para poner el tipo de dato
     marca:{
-        type:[String],
+        type:String,
         required:true
     },
     estado:{
-        type:String,
+        type:Boolean,
         required:true
     },
     valordia:{

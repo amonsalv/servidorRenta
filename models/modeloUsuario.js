@@ -12,11 +12,15 @@ const Usuario=new Schema ({
         type:String,
         required:true
     },
-    contraseña:{
+    password:{
         type:String,
         required:true
     },
-    valordia:{
+    rol:{
+        type:Boolean,
+        required:true
+    },
+    reservword:{
         type:String,
         required:true
     }
